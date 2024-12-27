@@ -10,7 +10,7 @@ The documentation in this repository covers the following topics:
 
 1. [Introduction to MySQL](docs/introduction.md)
 2. [Installation guide for MySQL](docs/installation.md)
-3. [Connecting to MySQL](docs/connecting-to-MySQL.md)
+3. [Connecting to MySQL](docs/connecting-to-mysql.md)
 4. [Creating a database in MySQL](docs/create-database.md)
 5. [Dropping a database in MySQL](docs/drop-database.md)
 6. [Creating tables in MySQL](docs/create-table.md)
@@ -21,7 +21,7 @@ The documentation in this repository covers the following topics:
 11. [Updating data in MySQL tables](docs/update-data.md)
 12. [Deleting data from MySQL tables](docs/delete-data.md)
 
-If you want complete documentation for understanding all basics then take look [Here](docs/topics.md)
+Do you need all above topics in one single combined page, then [READ Combined Topics](docs/topics.md)
 
 Each section provides clear explanations and step-by-step instructions to help you grasp the concepts and perform the operations effectively.
 
@@ -37,7 +37,10 @@ To make the most of this documentation, follow these steps:
 By following these steps, you will gain a solid foundation in MySQL and be able to perform basic operations efficiently.
 
 ## Conclusion
+
 MySQL is a powerful relational database management system with a wide range of applications. This documentation provides a beginner-friendly guide to MySQL, covering essential concepts and operations. Whether you are a student, developer, or database administrator, this repository will help you understand and utilize MySQL effectively.
+
+Consider, this notes primarily made for educational purpose only. For practical and real-time implementation may vary. Consider double check with official [MySQL](https://www.mysql.com/) website and consult with experts opinion. 
 
 ## Contributing
 

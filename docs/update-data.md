@@ -1,4 +1,6 @@
-1. UPDATE:
+# Update Data:
+
+1. **UPDATE:**
 
 Explanation: UPDATE is used to modify existing rows in a table.
 
@@ -30,7 +32,7 @@ Result:
 1 row affected. (Query took 0.0600 seconds.)
 ```
 
-2. UPDATE JOIN:
+2. **UPDATE JOIN:**
 
 Explanation: UPDATE JOIN is used to update rows in a table based on a join with another table.
 
@@ -62,7 +64,7 @@ Result:
 5 rows affected. (Query took 0.0660 seconds.)
 ```
 
-3. Updating data based on a subquery:
+3. **Updating data based on a subquery:**
    
 ```sql
    UPDATE table_name SET column_name = (SELECT new_value FROM other_table WHERE condition) WHERE condition;
@@ -77,7 +79,7 @@ Result:
 
 The "salary" column will be updated to the average salary from the "other_table" for all rows where "department" is 'Finance'.
 
-4. Updating data using a case statement:
+4. **Updating data using a case statement:**
    
 ```sql
    UPDATE table_name SET column_name = CASE WHEN condition THEN value1 ELSE value2 END WHERE condition;
@@ -90,3 +92,10 @@ Example:
 Result: 
 
 The "salary" column will be updated to 10% higher for employees with more than 5 years of experience, and 5% higher for others.
+
+---
+[&#8682; To Top](#update-data)
+
+[&#10094; Previous Topic](./querying-data.md) &emsp; [Next Topic &#10095;](./delete-data.md)
+
+[&#8962; Goto Home Page](../README.md)

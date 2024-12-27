@@ -1,4 +1,6 @@
-1. SELECT:
+# Querying Data:
+
+1. **SELECT:**
 
 Explanation: SELECT is used to retrieve data from one or more columns of one or more tables in a database.
 
@@ -34,7 +36,7 @@ Results:
 | d008    | Research            |
 | d007    | Sales               |
 
-2. SELECT DISTINCT:
+2. **SELECT DISTINCT:**
 
 Explanation: SELECT DISTINCT is used to retrieve unique values from a column in the result set.
 
@@ -68,7 +70,7 @@ Result:
 | Technique Leader   |
 | Manager            |
 
-3. LIMIT:
+3. **LIMIT:**
 
 Explanation: LIMIT is used to limit the number of rows returned in a result set.
 
@@ -107,7 +109,7 @@ Result:
 | 10009  | 1952-04-19 | Sumant     | Peac      | F      | 1985-02-18|
 | 10010  | 1963-06-01 | Duangkaew  | Piveteau  | F      | 1989-08-24|
 
-4. ORDER BY:
+4. **ORDER BY:**
 
 Explanation: ORDER BY is used to sort the result set in ascending or descending order based on one or more columns.
 
@@ -148,7 +150,7 @@ Result:
 | 155190  |
 | 154888  |
 
-5. GROUP BY:
+5. **GROUP BY:**
 
 Explanation: GROUP BY is used to group rows based on one or more columns, usually used with aggregate functions like SUM, COUNT, etc.
 
@@ -188,7 +190,7 @@ Result:
 | Staff             | 107391      |
 | Technique Leader  | 15159       |
 
-6. HAVING:
+6. **HAVING:**
 
 Explanation: HAVING is used to filter groups based on specified conditions in a GROUP BY query.
 
@@ -228,7 +230,7 @@ Result:
 | Manager           | 24           |
 | Technique Leader  | 15159        |	
 
-7. ROLLUP:
+7. **ROLLUP:**
 
 Explanation: ROLLUP is used to generate subtotals and grand totals in a GROUP BY query.
 
@@ -292,7 +294,7 @@ Result:
 | 1952-02-09 | M      | 45             |
 | 1952-02-09 | F      | 33             |
 
-8. WHERE:
+8. **WHERE:**
 
 Explanation: WHERE is used to filter rows based on specified conditions.
 
@@ -324,7 +326,7 @@ Result:
 |--------|
 | 108201 |
 
-9. AND:
+9. **AND:**
 
 Explanation: AND is used to combine multiple conditions in a WHERE clause.
 
@@ -363,7 +365,7 @@ Result:
 | 49447  |
 | 50654  |
 
-10. OR:
+10. **OR:**
 
 Explanation: OR is used to combine multiple conditions in a WHERE clause, where at least one condition must be true.
 
@@ -407,7 +409,7 @@ Result:
 | 39204  | 1956-03-08  | 1990-01-01  |
 | 44480  | 1952-06-13  | 1990-01-01  |
 
-11. IN:
+11. **IN:**
 
 Explanation: IN is used to specify multiple possible values for a column in a WHERE clause.
 
@@ -444,7 +446,7 @@ Result:
 | 110085 | d002    |
 | 110114 | d002    |
 
-12. BETWEEN:
+12. **BETWEEN:**
 
 Explanation: BETWEEN is used to select values within a range in a WHERE clause.
 
@@ -487,7 +489,7 @@ Result:
 | 10010  | 1989-08-24  |
 | 10013  | 1985-10-20  |
 
-13. LIKE:
+13. **LIKE:**
 
 Explanation: LIKE is used to search for a specified pattern in a column in a WHERE clause.
 
@@ -545,7 +547,7 @@ Result:
 | 12673  | Jouni      |
 | 12911  | Jordanka   |	
 
-14. IS NULL:
+14. **IS NULL:**
 
 Explanation: IS NULL is used to check if a column value is NULL in a WHERE clause.
 
@@ -579,7 +581,7 @@ Result:
 | 10002  |
 | 10003  |
 
-15. Table & Column Aliases:
+15. **Table & Column Aliases:**
 
 Explanation: Aliases are used to provide a temporary name for a table or column in a query.
 
@@ -620,7 +622,7 @@ Result:
 | 10015          |
 | 10016          |
 
-16. Joins:
+16. **Joins:**
 
 Explanation: Joins are used to combine rows from two or more tables based on related columns.
 
@@ -668,7 +670,7 @@ Result:
 | 10013          | Senior Staff        |
 | 10014          | Engineer            |
 
-17. INNER JOIN:
+17. **INNER JOIN:**
 
 Explanation: INNER JOIN returns rows that have matching values in both tables involved in the join.
 
@@ -709,7 +711,7 @@ Result:
 | d009    | Customer Service  |
 | d009    | Customer Service  |
 
-18. LEFT JOIN:
+18. **LEFT JOIN:**
 
 Explanation: LEFT JOIN returns all rows from the left table and the matched rows from the right table. If no match is found, NULL values are returned.
 
@@ -751,7 +753,7 @@ Result:
 | 110344 | 1985-11-22 |
 | 110386 | 1988-10-14 |
 
-19. RIGHT JOIN:
+19. **RIGHT JOIN:**
 
 Explanation: RIGHT JOIN returns all rows from the right table and the matched rows from the left table. If no match is found, NULL values are returned.
 
@@ -794,7 +796,7 @@ Result:
 | 10009  | d006    |
 | 10010  | d004    |
 
-20. Self Join:
+20. **Self Join:**
 
 Explanation: Self Join is used to join a table with itself, treating it as two separate tables.
 
@@ -808,7 +810,7 @@ SELECT
     ...
 FROM
     table_name1 t
-JOIN table_name2 u ON
+JOIN table_name1 u ON
     t.column_name2 = u.column_name3;
 ```
 
@@ -842,7 +844,7 @@ Result:
 | d005    | 1996-11-09 | 10011  | d009    | 1996-11-09 |
 | d001    | 1993-08-22 | 10015  | d008    | 1993-08-22 |
 
-21. CROSS JOIN:
+21. **CROSS JOIN:**
 
 Explanation: CROSS JOIN returns the Cartesian product of the two tables involved in the join, resulting in all possible combinations of rows.
 
@@ -884,7 +886,7 @@ Result:
 | Sales             | Senior Engineer  |
 | Customer Service  | Staff            |
 
-22. Derived Tables:
+22. **Derived Tables:**
 
 Explanation: Derived Tables are temporary tables created within a query, used to simplify complex queries or calculations.
 
@@ -938,7 +940,7 @@ Result:
 | 10008  | 3               |
 | 10009  | 18              |
 
-23. EXISTS:
+23. **EXISTS:**
 
 Explanation: EXISTS is used to check if a subquery returns any rows, and returns true if at least one row exists.
 
@@ -982,7 +984,7 @@ Result:
 
 first_name
 
-24. UNION:
+24. **UNION:**
 
 Explanation: UNION is used to combine result sets of two or more SELECT statements into a single result set.
 
@@ -1025,3 +1027,10 @@ Result:
 | Marketing         |
 | Production        |
 | Quality Management|
+
+---
+[&#8682; To Top](#querying-data)
+
+[&#10094; Previous Topic](./insert-data.md) &emsp; [Next Topic &#10095;](./update-data.md)
+
+[&#8962; Goto Home Page](../README.md)

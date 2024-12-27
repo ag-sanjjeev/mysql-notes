@@ -27,3 +27,10 @@ Replace `<username>` with your MySQL username.
 	Note: If you are connecting to a remote MySQL server, you may need to specify the host using the `-h` flag followed by the host address.
 
 4. If the credentials are correct, you will be connected to the MySQL server, and you will see the MySQL command prompt.
+
+---
+[&#8682; To Top](#connecting-to-mysql)
+
+[&#10094; Previous Topic](./installation.md) &emsp; [Next Topic &#10095;](./create-database.md)
+
+[&#8962; Goto Home Page](../README.md)

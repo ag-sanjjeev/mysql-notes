@@ -1,8 +1,8 @@
-# MYSQL CONCEPTS AND ITS EXAMPLES
+# MYSQL CONCEPTS AND EXAMPLES
 
 ## Introduction
 
-description
+This is a single page combined brief and basic topics of MySQL.
 
 ## Table of Contents
 
@@ -14,17 +14,12 @@ description
 6. [Mysql Datatypes](#mysql-datatypes)
 7. [Mysql Globalization](#mysql-globalization)
 8. [Advanced Mysql Concepts](#advanced-mysql-concepts)
-9. [Miscellaneous Concepts](#miscellanous-concepts)
-10. [Contributing](#contributing)
-11. [License](#license)
-12. [Acknowledgements](#acknowledgements)
-13. [Contact](#contact)
 
 ## Getting Started
 
-description
+Use any of your sample database or get from open-source database like employees in MySQL. Follow installation procedure from official website.
 
-use sample database like employees database in mysql
+Consider, this notes primarily made for educational purpose only. For practical and real-time implementation may vary. Consider double check with official [MySQL](https://www.mysql.com/) website and consult with experts opinion. 
 
 ## Data Manipulation
 
@@ -838,7 +833,7 @@ SELECT
     ...
 FROM
     table_name1 t
-JOIN table_name2 u ON
+JOIN table_name1 u ON
     t.column_name2 = u.column_name3;
 ```
 
@@ -1926,3 +1921,8 @@ mysql -u username -p database_name < backup.sql
 ```
 
 - Performance Tuning: Analyzing query performance, optimizing database schema, etc.
+
+---
+[&#8682; To Top](#mysql-concepts-and-examples)
+
+[&#8962; Goto Home Page](../README.md)

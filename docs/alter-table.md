@@ -1,4 +1,6 @@
-Explanation:
+# Alter a Table:
+
+**Explanation:**
 
 The ALTER TABLE statement is used to modify an existing table in a database. It allows you to add, modify, or delete columns, change data types, add or remove constraints, and perform other table-level modifications.
 
@@ -17,7 +19,7 @@ Parameters:
 - alter_specification: The alteration specification defines the modification to be made to the table. It can include multiple alteration statements separated by commas.
 
 Alteration Statements:
-1. ADD COLUMN:
+1. **ADD COLUMN:**
 
 ```sql
 ALTER TABLE table_name
@@ -35,7 +37,7 @@ ALTER TABLE customers
 
 This statement adds a column named "age" with the INT datatype to the "customers" table.
 
-2. MODIFY COLUMN:
+2. **MODIFY COLUMN:**
 
 ```sql
 ALTER TABLE table_name
@@ -53,7 +55,7 @@ ALTER TABLE customers
 
 This statement modifies the "age" column in the "customers" table to have the TINYINT datatype and be NOT NULL.
 
-3. DROP COLUMN:
+3. **DROP COLUMN:**
 
 ```sql
 ALTER TABLE table_name
@@ -71,7 +73,7 @@ ALTER TABLE customers
 
 This statement removes the "age" column from the "customers" table.
 
-4. ADD CONSTRAINT:
+4. **ADD CONSTRAINT:**
 
 ```sql
 ALTER TABLE table_name
@@ -90,3 +92,10 @@ ALTER TABLE orders
 This statement adds a foreign key constraint named "fk_customer_id" to the "orders" table, referencing the "id" column in the "customers" table.
 
 Note: The examples provided are basic illustrations of the ALTER TABLE statement. There are many more alteration options available for modifying tables in MySQL. Make sure to refer to the MySQL documentation for more detailed information and examples.
+
+---
+[&#8682; To Top](#alter-a-table)
+
+[&#10094; Previous Topic](./create-table.md) &emsp; [Next Topic &#10095;](./drop-table.md)
+
+[&#8962; Goto Home Page](../README.md)

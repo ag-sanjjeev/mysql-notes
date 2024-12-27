@@ -60,3 +60,10 @@ This installation guide will walk you through the steps to install MySQL, a popu
    This command will display the MySQL version if the installation was successful.
    
 Congratulations! You have successfully installed MySQL on your system. You can now start using MySQL for your database management needs.
+
+---
+[&#8682; To Top](#installation-guide-for-mysql)
+
+[&#10094; Previous Topic](./introduction.md) &emsp; [Next Topic &#10095;](./connecting-to-mysql.md)
+
+[&#8962; Goto Home Page](../README.md)

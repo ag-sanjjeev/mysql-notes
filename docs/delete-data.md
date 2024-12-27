@@ -1,4 +1,6 @@
-1. DELETE:
+# Delete Data:
+
+1. **DELETE:**
 
 Explanation: DELETE is used to delete existing rows from a table.
 
@@ -28,7 +30,7 @@ Result:
 2 rows affected. (Query took 0.0910 seconds.)
 ```
 
-2. DELETE JOIN:
+2. **DELETE JOIN:**
 
 Explanation: DELETE JOIN is used to delete rows from a table based on a join with another table.
 
@@ -58,7 +60,7 @@ Result:
 3 rows affected. (Query took 0.0950 seconds.)
 ```
 
-3. Deleting all rows from a table:
+3. **Deleting all rows from a table:**
 
 ```sql   
 DELETE FROM table_name;
@@ -73,7 +75,7 @@ Result:
 
 All rows from the "employees" table will be deleted.
 
-4. Deleting data using a subquery:
+4. **Deleting data using a subquery:**
 
 ```sql   
 DELETE FROM table_name WHERE column_name IN (SELECT column_name FROM other_table WHERE condition);
@@ -88,3 +90,10 @@ DELETE FROM employees WHERE emp_id IN (SELECT emp_id FROM terminated_employees);
 Result: 
 
 All rows from the "employees" table where the "emp_id" column matches any value from the "terminated_employees" table will be deleted.
+
+---
+[&#8682; To Top](#delete-data)
+
+[&#10094; Previous Topic](./update-data.md)
+
+[&#8962; Goto Home Page](../README.md)

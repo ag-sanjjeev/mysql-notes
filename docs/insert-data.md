@@ -1,4 +1,6 @@
-1. INSERT:
+# Insert Data:
+
+1. **INSERT:**
 
 Explanation: INSERT is used to insert new rows into a table.
 
@@ -22,7 +24,7 @@ Result:
 1 row inserted. (Query took 0.0320 seconds.)
 ```
 
-2. Insert Multiple Rows:
+2. **Insert Multiple Rows:**
 
 Explanation: Insert Multiple Rows is used to insert multiple rows into a table in a single INSERT statement.
 
@@ -46,7 +48,7 @@ Result:
 2 rows inserted. (Query took 0.0350 seconds.)
 ```
 
-3. INSERT INTO SELECT:
+3. **INSERT INTO SELECT:**
 
 Explanation: INSERT INTO SELECT is used to insert rows into a table by selecting data from another table.
 
@@ -85,7 +87,7 @@ Result:
 3 rows inserted. (Query took 0.1550 seconds.)
 ```
 
-4. Insert On Duplicate Key Update:
+4. **Insert On Duplicate Key Update:**
 
 Explanation: Insert On Duplicate Key Update is used to insert new rows into a table, and if a duplicate key is found, update the existing row.
 
@@ -117,7 +119,7 @@ Result:
 1 row inserted. (Query took 0.0660 seconds.)
 ```
 
-5. INSERT IGNORE:
+5. **INSERT IGNORE:**
 
 Explanation: INSERT IGNORE is used to insert new rows into a table, ignoring any duplicate key errors.
 
@@ -143,7 +145,7 @@ Result:
 1 row inserted. (Query took 0.0880 seconds.)
 ```
 
-6. REPLACE:
+6. **REPLACE:**
 
 Explanation: REPLACE is used to insert new rows into a table, and if a duplicate key is found, delete the existing row and insert the new row.
 
@@ -168,3 +170,10 @@ Result:
 ```bash
 1 row affected. (Query took 0.0410 seconds.)
 ```
+
+---
+[&#8682; To Top](#insert-data)
+
+[&#10094; Previous Topic](./drop-table.md) &emsp; [Next Topic &#10095;](./querying-data.md)
+
+[&#8962; Goto Home Page](../README.md)

@@ -1,4 +1,6 @@
-Explanation:
+# Create a Table:
+
+**Explanation:**
 
 The CREATE TABLE statement is used to create a new table in a database. It defines the structure of the table by specifying the column names, data types, constraints, and other attributes.
 
@@ -28,7 +30,7 @@ Parameters:
 
 Examples:
 
-1. Create a basic table with two columns:
+1. **Create a basic table with two columns:**
 
 ```sql
 CREATE TABLE customers (
@@ -40,7 +42,7 @@ CREATE TABLE customers (
 
 This statement will create a table named "customers" with two columns - "id" of INT data type as the primary key, and "name" of VARCHAR(50) data type that cannot be NULL.
 
-2. Create a table with multiple columns and constraints:
+2. **Create a table with multiple columns and constraints:**
 
 ```sql
 CREATE TABLE employees (
@@ -55,7 +57,7 @@ CREATE TABLE employees (
 
 This statement will create a table named "employees" with several columns, including a primary key, NOT NULL constraints on the "first_name" and "last_name" columns, a UNIQUE constraint on the "email" column, and a FOREIGN KEY constraint on the "department_id" column referencing the "id" column of the "departments" table.
 
-3. Create a table with IF NOT EXISTS option:
+3. **Create a table with IF NOT EXISTS option:**
 
 ```sql
 CREATE TABLE IF NOT EXISTS products (
@@ -67,3 +69,10 @@ CREATE TABLE IF NOT EXISTS products (
 This statement will create a table named "products" only if it does not already exist. If the table already exists, the statement will not produce an error and will not create a new table.
 
 Note: The examples provided are basic illustrations of the CREATE TABLE statement. There are many more options and constraints available for creating tables in MySQL. Make sure to refer to the MySQL documentation for more detailed information and examples.
+
+---
+[&#8682; To Top](#create-a-table)
+
+[&#10094; Previous Topic](./drop-database.md) &emsp; [Next Topic &#10095;](./alter-table.md)
+
+[&#8962; Goto Home Page](../README.md)
